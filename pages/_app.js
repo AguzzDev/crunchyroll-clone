@@ -1,7 +1,19 @@
-import '../styles/globals.css'
+import { wrapper } from 'store'
+import MDXComponents from 'components/MDXComponents'
+import { MDXProvider } from '@mdx-js/react'
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+import '../styles/globals.css'
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+
+const MyApp = ({ Component, pageProps }) => {
+  return (
+    <MDXProvider components={MDXComponents}>
+      <Component {...pageProps} />
+    </MDXProvider>
+  )
 }
 
-export default MyApp
+export default wrapper.withRedux(MyApp)

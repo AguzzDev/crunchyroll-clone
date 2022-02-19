@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "title": "Prueba Gratuita",
+    "data": "Sin comerciales, Videos de Alta Definición a su computador, T.V. y equipos móviles.",
+    "data2": "Inicie su período gratuito de 14 días"
+  },
+  {
+    "id": 2,
+    "title": "Series de la temporada",
+    "data": "¡Disfruta de los episodios más recientes de la temporada! Puedes revisar el calendario de estrenos para saber cuándo se estrenan nuevos episodios.",
+    "data2": "Ver las Series de esta Temporada"
+  },
+  {
+    "id": 3,
+    "title": "Búsqueda por Géneros",
+    "data": "¿Buscas algo más acorde a tus gustos? Prueba la búsqueda por géneros.",
+    "data2": "Busca aquí por géneros"
+  },
+  {
+    "id": 4,
+    "title": "Sigue a Crunchyroll",
+    "data": "Mantente al día sobre los últimos episodios, informáte con las noticias o simplemente comparte con nosotros tu amor por el anime en las redes sociales."
+  }
+]
