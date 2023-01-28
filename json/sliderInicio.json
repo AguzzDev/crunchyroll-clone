@@ -1,22 +1,22 @@
 [
-    {
-        "id":1,
-    "image":"https://img1.ak.crunchyroll.com/i/spire4/be9f9f0bc8198970b604ceda9ece83811601665454_main.png"
-},
-{
-    "id":2,
-"image":"https://img1.ak.crunchyroll.com/i/spire1/c4538fc75ca1cf07022949aac4eceff01627427053_main.png"
-},
-{
-    "id":3,
-"image":"https://img1.ak.crunchyroll.com/i/spire2/19c384331bfc4072b9bc4a9530e662ec1625611399_main.png"
-},
-{
-    "id":4,
-"image":"https://img1.ak.crunchyroll.com/i/spire4/4f48cb6874936af1923a184bea07187f1627427217_main.png"
-},
-{
-    "id":5,
-"image":"https://img1.ak.crunchyroll.com/i/spire1/9b7ab100775c541850b2369b301bb9331627427430_main.png"
-}
+  {
+    "id": 1,
+    "image": "https://img1.ak.crunchyroll.com/i/spire4/be9f9f0bc8198970b604ceda9ece83811601665454_main.png"
+  },
+  {
+    "id": 2,
+    "image": "https://img1.ak.crunchyroll.com/i/spire1/c4538fc75ca1cf07022949aac4eceff01627427053_main.png"
+  },
+  {
+    "id": 3,
+    "image": "https://img1.ak.crunchyroll.com/i/spire2/19c384331bfc4072b9bc4a9530e662ec1625611399_main.png"
+  },
+  {
+    "id": 4,
+    "image": "https://img1.ak.crunchyroll.com/i/spire4/4f48cb6874936af1923a184bea07187f1627427217_main.png"
+  },
+  {
+    "id": 5,
+    "image": "https://img1.ak.crunchyroll.com/i/spire1/9b7ab100775c541850b2369b301bb9331627427430_main.png"
+  }
 ]

@@ -2,7 +2,7 @@ import { createStore, applyMiddleware } from 'redux'
 import { composeWithDevTools } from 'redux-devtools-extension'
 import { createWrapper } from 'next-redux-wrapper'
 import thunk from 'redux-thunk'
-import reducers from 'reducers'
+import reducers from './reducers'
 
 const bindMiddleware = middleware => {
   return composeWithDevTools(applyMiddleware(...middleware))
