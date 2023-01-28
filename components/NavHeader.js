@@ -2,13 +2,12 @@ import { useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { useRouter } from "next/router"
-import { MenuIcon, SearchIcon } from "@heroicons/react/solid"
+import { SearchIcon } from "@heroicons/react/solid"
 
 import { IconSm } from "./Icon"
 import { numberAnimeRandom } from "utils/formats"
 import { ListIcon } from "public/svg/ListIcon"
 import { DiceIcon } from "public/svg/DiceIcon"
-import { ProfileIcon } from "public/svg/ProfileIcon"
 
 export default function NavHeader() {
   const router = useRouter()
@@ -36,8 +35,9 @@ export default function NavHeader() {
   const NavItemIcon = ({ path, icon, title }) => (
     <Link passHref href={path}>
       <button className="flex flex-col group cursor-pointer">
-        {icon}
-        <h1 className="font-semibold text-xs group-hover:text-orange text-gray-400">
+        <div className="h-6 w-3/4 mx-auto">{icon}</div>
+
+        <h1 className="mt-1 font-semibold text-xs group-hover:text-orange text-gray-400">
           {title}
         </h1>
       </button>
@@ -45,7 +45,7 @@ export default function NavHeader() {
   )
 
   return (
-    <section className="w-full bg-white shadow-xl select-none">
+    <section className="w-full bg-white shadow-xl select-none sticky top-0 z-50">
       <div className="hidden md:flex justify-between px-4 lg:px-0 w-full lg:w-10/12 xl:w-7.5/12 mx-auto">
         <div className="flex flex-row items-center space-x-2 lg:space-x-5">
           <NavItem path="/" />
@@ -62,7 +62,6 @@ export default function NavHeader() {
             title="Aleatorio"
             icon={<DiceIcon />}
           />
-          <NavItemIcon path="/" title="Perfil" icon={<ProfileIcon />} />
 
           <form onSubmit={handleSubmit}>
             <div className="flex justify-between border py-2 border-gray-300 mx-auto">
